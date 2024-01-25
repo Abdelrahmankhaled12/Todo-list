@@ -16,8 +16,6 @@ function App() {
         dispatch(setTasks(res.data))
       })
   }, []);
-
-
   return (
     <>
       <div className="body">
